@@ -9,7 +9,7 @@ data = json.load(f)
 # Iterating through the json
 # list
 for i in data:
-    print(i, data[i])
+    print("{0:12}{1}".format(i, data[i]))
 
 # Closing file
 f.close()
